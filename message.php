@@ -8,7 +8,7 @@
     if(filter_var($email, FILTER_VALIDATE_EMAIL)){
       $receiver = "info@abba.studio"; //enter that email address where you want to receive all mensajes
       $subject = "From: $nombre <$email>";
-      $body = "nombre: $nombre\nEmail: $email\ntelefono: $telefono\nproyecto: $proyecto\n\nmensaje:\n$mensaje\n\nRegards,\n$nombre";
+      $body = "nombre: $nombre\nEmail: $email\ntelefono: $telefono\nproyecto: $proyecto\n\nmensaje:\n$mensaje\n\nUn saludo,\n$nombre";
       $sender = "From: $email";
       if(mail($receiver, $subject, $body, $sender)){
          echo "Su mensaje a sido enviado";
