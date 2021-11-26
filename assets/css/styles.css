@@ -932,6 +932,10 @@ form .button-area{
   .home-social-icon{
     font-size: 1.8rem;
   }
+
+  .home:before{
+    background: rgba(0, 0, 0, 0.850);
+  }
 }
 
 @media screen and (min-width: 576px){
