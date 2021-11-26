@@ -911,6 +911,29 @@ form .button-area{
   color: var(--first-color-light);
 }
 /*===== MEDIA QUERIES =====*/
+
+@media screen and (min-width: 300px){
+  .home h1{
+    font-size: 1.9rem;
+  }
+
+  .home-description{
+    font-size: 17px;
+  }
+
+  .home-container{
+    padding: 6rem 1rem 2rem;
+  }
+
+  .home-img img{
+    width: 320px;
+  }
+
+  .home-social-icon{
+    font-size: 1.8rem;
+  }
+}
+
 @media screen and (min-width: 576px){
   .about-container, .services-container, .portfolio-container{
     grid-template-columns: repeat(2,1fr);
@@ -950,6 +973,7 @@ form .button-area{
   .home-container{
     height: 100vh;
     align-content: flex-end;
+    padding: 8rem 1rem 2rem;
   }
 
   .home-img img{
