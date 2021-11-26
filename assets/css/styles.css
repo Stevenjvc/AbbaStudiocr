@@ -999,4 +999,8 @@ form .button-area{
   .services-container, .portfolio-container{
     grid-template-columns: repeat(3,1fr);
   }
+
+  .home:before{
+    background: rgba(0, 0, 0, 0.850);
+  }
 }
