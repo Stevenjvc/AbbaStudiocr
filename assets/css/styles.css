@@ -153,7 +153,6 @@ img{
 .nav-logo{
   margin-top: 12px;
   width: 70px;
-  margin-left: var(--mb-2);
   z-index: 999;
 }
 
@@ -596,7 +595,7 @@ img{
 }
 
 .portfolio-title{
-  font-size: var(--h3-font-size);
+  font-size: 16px;
   color: var(--first-color);
   margin: var(--mb-2) 0;
 }
@@ -787,6 +786,7 @@ form .button-area{
     width: 100%;
     padding: 11px 0;
     font-size: 16px;
+    cursor: none;
   }
   .button-area span{
     margin: 20px 0 0;
@@ -802,15 +802,16 @@ form .button-area{
 }
 
 .footer-container{
-  padding: 3rem 0;
+  padding: 1rem 0;
   max-width: 1024px;
   width: calc(100% - 2rem);
+  height: 100%;
   margin-left: auto;
   margin-right: auto;
 }
 
 .footer-social{
-  margin-bottom: var(--mb-3);
+  margin-bottom: var(--mb-1);
 }
 
 .footer-link{
@@ -845,10 +846,12 @@ form .button-area{
 
   .home-img img{
     width: 320px;
+    cursor: none;
   }
 
   .home-social-icon{
     font-size: 1.8rem;
+    cursor: none;
   }
 
   .home:before{
@@ -862,6 +865,19 @@ form .button-area{
   .about .section-title p{
     font-size:20px;
   }
+
+  .nav-toggle{
+    cursor: none;
+  }
+
+  .bx{
+    cursor: none;
+  }
+
+  .scrolltop{
+    cursor: pointer;
+  }
+
 }
 
 @media screen and (min-width: 576px){
@@ -920,6 +936,7 @@ form .button-area{
 
   .home-social-icon{
     font-size: 1.8rem;
+    cursor: pointer;
   }
 
   .services-container, .portfolio-container{
@@ -936,5 +953,13 @@ form .button-area{
   
   .about .section-title p{
     font-size:30px;
+  }
+
+  .bx{
+    cursor: pointer;
+  }
+
+  .scrolltop{
+    cursor: pointer;
   }
 }
